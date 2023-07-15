@@ -6,7 +6,7 @@ import logo from './icons_assets/Logo .svg'
 
 function Footer() {
   return (
-    <div>
+    <>
       <footer className="text-center text-lg-start bg-light text-muted">
         <section className="">
           <div className="container text-center text-md-start mt-5">
@@ -73,7 +73,7 @@ function Footer() {
           <a className="text-reset fw-bold" href="https://www.linkedin.com/in/rezasoltani6385/">Reza Soltani</a>
         </div>
       </footer>
-    </div>
+    </>
   )
 }
 
