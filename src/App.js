@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import HomePage from './HomePage';
 import BookingPage from './BookingPage';
@@ -6,12 +6,12 @@ import BookingPage from './BookingPage';
 
 function App() {
   return (
-    <>
+    <Router>
       <Routes>
         <Route path='/' element={<HomePage/>}></Route>
         <Route path='/booking' element={<BookingPage/>}></Route>
       </Routes>
-    </>
+    </Router>
   );
 }
 
